@@ -30,7 +30,6 @@ b11 = KeyboardButton('*Меню*')
 b12 = KeyboardButton('Посмотреть заказ')
 kb_dostavka = ReplyKeyboardMarkup(resize_keyboard=True).row(b11, b12).add(btnMain)
 
-
 #Кнопки меню админа
 b13 = KeyboardButton('Доставки')
 b14 = KeyboardButton('Ресторан')
